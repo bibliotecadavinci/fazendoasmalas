@@ -35,7 +35,7 @@ tw-link, tw-link:hover, tw-link:visited, tw-link:active {
 
 Você já faz parte da equipe de expedição pelas civilizações antigas da América, e aventuras inéditas o aguardam. Chegou a hora de preparar as malas para embarcar nessa viagem.
 
-[[Começar]]</tw-passagedata><tw-passagedata pid="2" name="Começar" tags="" position="700,450" size="100,100">Você decide renunir alguns objetos de estudo que podem ser importantes na sua jornada. O primeiro deles é um livro. Qual livro você escolhe?
+[[Começar]]</tw-passagedata><tw-passagedata pid="2" name="Começar" tags="" position="700,450" size="100,100">Você decide reunir alguns objetos de estudo que podem ser importantes na sua jornada. O primeiro deles é um livro. Qual livro você escolhe?
 
 (link: &quot;Códice Florentino&quot;)[\
 	(set: $asteca to it + 1)\
@@ -190,7 +190,7 @@ Depois de pegar tudo o que precisa, você confere o horário do seu voo para...
 (link: &quot;Cidade da Guatemala&quot;)[\
 	(set: $maia to it + 1)\
 	(go-to: &quot;Final&quot;)\
-]</tw-passagedata><tw-passagedata pid="12" name="Final" tags="" position="1150,700" size="100,100">Enquanto você confere a passagem,se lembra de que precisa passar para o líder de expedição a senha da pasta de investigação com as informações que você coletar. A senha que você deve passar é:
+]</tw-passagedata><tw-passagedata pid="12" name="Final" tags="" position="1150,700" size="100,100">Enquanto você confere a passagem, se lembra de que precisa passar para o líder de expedição a senha da pasta de investigação com as informações que você coletar. A senha que você deve passar é:
 (if: $asteca is 10 and $maia is 0 and $inca is 0)[
 (text-colour:red)[&#39;&#39;templo&#39;&#39;]
 ]\
